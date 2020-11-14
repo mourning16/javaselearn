@@ -1,2 +1,2 @@
 # javaselearn
-java
+JavaSe学习记录
