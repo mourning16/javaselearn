@@ -1,5 +1,6 @@
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * @Description TODO
@@ -15,11 +16,20 @@ public class SdfDemo {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
 
-        try {
+/*        try {
             sdf.parse(sdf.format(""));
         } catch (ParseException e) {
             e.printStackTrace();
-        }
+        }*/
+
+        Date date = new Date();
+        Long l = date.getTime();
+
+
+
+
+
+
 
 
     }
