@@ -32,7 +32,6 @@ public class GraphicDemo {
             encoder.encode(image);*/
             ImageIO.write(image ,"jpg",bos);
 
-
             bos.close();
             fos.close();
         } catch (Exception e) {
