@@ -29,9 +29,9 @@ public class ClassLoaderDemo {
         //伸缩区空间 = max - total
 
 
-       for(int i =0;i<Integer.MAX_VALUE;i++){
+  /*     for(int i =0;i<Integer.MAX_VALUE;i++){
             str += str;
-        }
+        }*/
 
     }
 

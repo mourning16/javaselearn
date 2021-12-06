@@ -18,10 +18,7 @@ public class ExceptionDemo {
             }
         }catch (Exception e){
             System.out.println("走了catch"+e);
-
         }
-
-
     }
 
 }
